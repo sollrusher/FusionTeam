@@ -10,6 +10,7 @@ function spiralMatrix( dimension ) {
 
     // Меняем кол-во шагов
     if(x === steps && y === dimension - steps - 1) steps--;
+    
 
     // Движение "вправо"
     if((y >= x && y < steps) || (x - 1 === y && x === dimension - steps - 1)) y++;

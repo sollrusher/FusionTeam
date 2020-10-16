@@ -1,14 +1,14 @@
 "use strict"
 
 
-let n;
+
 let arr = [0, 1];
 let current = 0;
 
 function numbers(end){
 
   if(arr.length <= end){
-    n=arr.length;
+    let n =arr.length;
      current=arr[n-1]+arr[n-2];
 
     arr.push(current)
